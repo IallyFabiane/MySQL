@@ -1,0 +1,2 @@
+SELECT DISTINCT A.CPF, A.NOME, B.CPF FROM notas_fiscais B RIGHT JOIN tabela_de_clientes A ON A.CPF = B.CPF
+WHERE B.CPF IS NULL;
