@@ -1,0 +1,1 @@
+SELECT CONCAT(NOME, '(', CPF, ')') AS RESULTADO FROM tabela_de_clientes;
