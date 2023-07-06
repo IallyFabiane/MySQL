@@ -1,0 +1,1 @@
+SELECT CONCAT('O dia de hoje é ', DATE_FORMAT(CURRENT_TIMESTAMP(),'%m/%y')) AS DATA;
