@@ -1,0 +1,9 @@
+CREATE TABLE tab_identity (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    DESCRITOR VARCHAR(50)
+);
+
+INSERT INTO tab_identity (DESCRITOR) 
+VALUES ('cliente 1');
+
+SELECT * FROM tab_identity;
