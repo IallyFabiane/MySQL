@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `Cursor_Looping`()
 BEGIN
-    DECLARE fimDoCursor int DEFAULT 0;
+    DECLARE fimDoCursor int DEFAULT (0);
 	DECLARE nome varchar(50);
     DECLARE c CURSOR FOR 
     SELECT NOME FROM clientes LIMIT 4;
